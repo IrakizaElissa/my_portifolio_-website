@@ -27,7 +27,7 @@ export function HeroSection() {
       </div>
 
       <div className="max-w-6xl mx-auto w-full relative z-10">
-        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_380px]">
+        <div className="grid items-center gap-12 lg:grid-cols-[minmax(0,1fr)_420px]">
           <div>
             <div
               className={`transition-all duration-700 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
@@ -86,11 +86,11 @@ export function HeroSection() {
           </div>
 
           <div
-            className={`mx-auto w-full max-w-sm transition-all duration-700 delay-300 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
+            className={`mx-auto w-full max-w-md transition-all duration-700 delay-300 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}
           >
             <div className="relative overflow-hidden rounded-[2rem] border border-primary/20 bg-card/70 p-3 shadow-2xl backdrop-blur-sm">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/5" />
-              <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem]">
+              <div className="relative aspect-[3/4] overflow-hidden rounded-[1.5rem]">
                 <img
                   src={withBasePath(personal.profileImage)}
                   alt={personal.name}
