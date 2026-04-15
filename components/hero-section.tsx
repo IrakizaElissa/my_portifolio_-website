@@ -5,6 +5,7 @@ import Image from "next/image"
 import { ArrowDown } from "lucide-react"
 import { VisitCounter } from "@/components/visit-counter"
 import { usePortfolioLanguage } from "@/hooks/use-portfolio-language"
+import { withBasePath } from "@/lib/base-path"
 
 export function HeroSection() {
   const [mounted, setMounted] = useState(false)
@@ -92,7 +93,7 @@ export function HeroSection() {
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/5" />
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem]">
                 <Image
-                  src={personal.profileImage}
+                  src={withBasePath(personal.profileImage)}
                   alt={personal.name}
                   fill
                   priority
