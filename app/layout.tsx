@@ -5,6 +5,8 @@ import { Analytics } from "@vercel/analytics/next"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
+
 const inter = Inter({ 
   subsets: ["latin"],
   variable: "--font-inter",
@@ -31,19 +33,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: `${basePath}/icon-light-32x32.png`,
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: `${basePath}/icon-dark-32x32.png`,
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: `${basePath}/icon.svg`,
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: `${basePath}/apple-icon.png`,
   },
 }
 

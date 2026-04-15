@@ -4,6 +4,7 @@ import { useInView } from "@/hooks/use-in-view"
 import { useState } from "react"
 import { X, ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import { withBasePath } from "@/lib/base-path"
 
 export function PhotoGallerySection() {
   const { ref, inView } = useInView({ threshold: 0.2 })
@@ -60,7 +61,7 @@ export function PhotoGallerySection() {
             >
               <div className="aspect-square bg-muted relative overflow-hidden">
                 <img
-                  src={image.src}
+                  src={withBasePath(image.src)}
                   alt={image.alt}
                   className="w-full h-full object-cover"
                 />
@@ -106,7 +107,7 @@ export function PhotoGallerySection() {
 
               <div className="relative flex items-center justify-center max-w-4xl mx-auto">
                 <img
-                  src={galleryImages[selectedImage].src}
+                  src={withBasePath(galleryImages[selectedImage].src)}
                   alt={galleryImages[selectedImage].alt}
                   className="w-full h-auto max-h-[70vh] object-contain rounded-xl"
                 />

@@ -10,6 +10,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { LanguageToggle } from "@/components/language-toggle"
 import type { Language, PortfolioContent } from "@/data/portfolio-content"
 import { usePortfolioLanguage } from "@/hooks/use-portfolio-language"
+import { withBasePath } from "@/lib/base-path"
 import { useTheme } from "next-themes"
 import {
   Github,
@@ -1023,7 +1024,7 @@ function ModernWallDisplay({ position, isDark = true }: { position: [number, num
             />
             <div className="relative rounded-[26px] overflow-hidden border-4 border-teal-400/80 shadow-2xl">
               <img
-                src={personal.profileImage}
+                src={withBasePath(personal.profileImage)}
                 alt={personal.name}
                 className="block h-[280px] w-full object-cover"
               />
@@ -1091,7 +1092,7 @@ function ModernWallDisplay({ position, isDark = true }: { position: [number, num
                 {personal.phone}
               </span>
               <a
-                href={personal.resume}
+                href={withBasePath(personal.resume)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full px-4 py-2 text-sm font-semibold transition-transform hover:scale-105"
@@ -1491,7 +1492,7 @@ function ContactRoom({ position, isDark = true }: { position: [number, number, n
             </div>
 
             <a
-              href={personal.resume}
+              href={withBasePath(personal.resume)}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 bg-pink-500/20 hover:bg-pink-500/30 text-pink-200 py-3 px-4 rounded-lg transition-colors"
