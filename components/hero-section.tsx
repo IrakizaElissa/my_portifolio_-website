@@ -1,7 +1,6 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import Image from "next/image"
 import { ArrowDown } from "lucide-react"
 import { VisitCounter } from "@/components/visit-counter"
 import { usePortfolioLanguage } from "@/hooks/use-portfolio-language"
@@ -92,13 +91,10 @@ export function HeroSection() {
             <div className="relative overflow-hidden rounded-[2rem] border border-primary/20 bg-card/70 p-3 shadow-2xl backdrop-blur-sm">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-primary/5" />
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem]">
-                <Image
+                <img
                   src={withBasePath(personal.profileImage)}
                   alt={personal.name}
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 320px, 380px"
-                  className="object-cover"
+                  className="h-full w-full object-cover"
                 />
               </div>
             </div>
