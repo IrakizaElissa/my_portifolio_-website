@@ -94,7 +94,7 @@ export function HeroSection() {
                 <img
                   src={withBasePath(personal.profileImage)}
                   alt={personal.name}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-contain"
                 />
               </div>
             </div>
