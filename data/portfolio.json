@@ -1,0 +1,167 @@
+{
+  "personal": {
+    "name": "Irakiza Elissa",
+    "title": "Junior Web Developer",
+    "greeting": "Hello, I'm",
+    "tagline": "Motivated and adaptable developer with growing expertise in computer technology, digital tools, and modern web development.",
+    "specializations": ["React", "Node.js", "Tailwind CSS", "Computer Networking"],
+    "email": "elisiirakiza@gmail.com",
+    "phone": "+250 798 295 923",
+    "github": "",
+    "linkedin": "",
+    "x": "https://x.com/eli_iraq?s=21",
+    "instagram": "https://www.instagram.com/irak_eli?igsh=cnZ3cHMxaWUxZXBm&utm_source=qr",
+    "location": "Kigali, Rwanda",
+    "availability": "Open to internships and junior opportunities",
+    "profileImage": "/elissa-profile.png",
+    "resume": "/Professional_CV_Elissa.docx",
+    "copyright": "(c) 2026 Irakiza Elissa. All rights reserved."
+  },
+  "navigation": [
+    { "name": "About", "href": "#about" },
+    { "name": "Skills", "href": "#skills" },
+    { "name": "Experience", "href": "#experience" },
+    { "name": "Portfolio", "href": "#projects" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "about": {
+    "sectionTitle": "About Me",
+    "heading": "Growing through technology and practical learning",
+    "paragraphs": [
+      "I am a motivated and adaptable individual with a strong academic background and growing expertise in computer technology and digital tools.",
+      "My current focus includes web development with HTML, CSS, Tailwind CSS, React, Node.js, and programming foundations in C, C++, Java, and JavaScript.",
+      "I enjoy practical learning, teamwork, and using problem-solving skills to build useful digital experiences."
+    ],
+    "highlights": ["strong academic background", "problem-solving skills", "practical learning"],
+    "stats": [
+      { "value": "4+", "label": "Web Technologies" },
+      { "value": "5+", "label": "Core Strengths" },
+      { "value": "3", "label": "Education Levels" },
+      { "value": "2", "label": "Languages" }
+    ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "heading": "Tools and Technologies I Use",
+    "categories": [
+      {
+        "title": "Programming",
+        "skills": ["C", "C++", "Java", "JavaScript"]
+      },
+      {
+        "title": "Web Development",
+        "skills": ["HTML", "CSS", "Tailwind CSS", "React", "Node.js"]
+      },
+      {
+        "title": "Digital Tools",
+        "skills": ["Microsoft Word", "Excel", "PowerPoint", "Publisher"]
+      },
+      {
+        "title": "IT & Systems",
+        "skills": ["LAN", "WLAN", "Windows 7", "Windows 10", "Windows Server"]
+      }
+    ]
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "heading": "Education Journey",
+    "items": [
+      {
+        "type": "education",
+        "title": "Computer Science Student",
+        "company": "University of Rwanda, College of Science and Technology",
+        "period": "2023 - Present",
+        "description": [
+          "Pursuing Bachelor's degree in Computer Science.",
+          "Developing advanced skills in software development, programming, and computer systems.",
+          "Gaining practical experience in modern technologies and industry practices."
+        ]
+      },
+      {
+        "type": "education",
+        "title": "Training Program",
+        "company": "Africa Silicon Valley",
+        "period": "2024 - Present",
+        "description": [
+          "Participating in intensive training on emerging technologies and startup ecosystem.",
+          "Building entrepreneurship and innovation skills.",
+          "Networking with professionals and innovators in the tech industry."
+        ]
+      },
+      {
+        "type": "education",
+        "title": "Advanced Level (A2)",
+        "company": "GS St Philippe Neri, Gisagara",
+        "period": "2020 - 2023",
+        "description": [
+          "Completed upper secondary studies.",
+          "Strengthened communication, teamwork, and leadership skills.",
+          "Built a solid academic foundation for technology learning."
+        ]
+      },
+      {
+        "type": "education",
+        "title": "Ordinary Level",
+        "company": "ASPADE Ngororero",
+        "period": "2016 - 2019",
+        "description": [
+          "Developed discipline and adaptability through academic studies.",
+          "Gained confidence working independently and in teams."
+        ]
+      },
+      {
+        "type": "education",
+        "title": "Primary Education",
+        "company": "GS Karama",
+        "period": "2010 - 2015",
+        "description": [
+          "Established foundational learning skills and curiosity.",
+          "Began building the habits that support long-term growth."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "sectionTitle": "Portfolio",
+    "heading": "Focus Areas",
+    "items": [
+      {
+        "title": "Responsive Web Interfaces",
+        "description": "Building modern frontend experiences with HTML, CSS, Tailwind CSS, and React while learning strong layout and component fundamentals.",
+        "tags": ["HTML", "CSS", "Tailwind", "React"],
+        "featured": true,
+        "github": "",
+        "demo": ""
+      },
+      {
+        "title": "Programming Foundations",
+        "description": "Growing software development skills through JavaScript, Java, C, and C++ while strengthening logic, structure, and problem-solving.",
+        "tags": ["JavaScript", "Java", "C", "C++"],
+        "featured": true,
+        "github": "",
+        "demo": ""
+      },
+      {
+        "title": "IT Support and Networking",
+        "description": "Understanding local area networking, wireless networking, and Windows operating environments for practical technology support.",
+        "tags": ["LAN", "WLAN", "Windows", "Support"],
+        "featured": true,
+        "github": "",
+        "demo": ""
+      },
+      {
+        "title": "Digital Productivity",
+        "description": "Using Microsoft Office tools to create organized documents, presentations, and communication materials.",
+        "tags": ["Word", "Excel", "PowerPoint"],
+        "featured": false,
+        "github": "",
+        "demo": ""
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact",
+    "heading": "Let's Connect",
+    "description": "I am open to internships, junior roles, and opportunities to grow in web development and technology."
+  }
+}
